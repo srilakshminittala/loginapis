@@ -26,10 +26,10 @@ sh ~/.bash_profile
 ## Execution instructions 
 
 
-1. Clone Git repo  https://github.com/srilakshminittala/restapi.git into your local directory.
+1. Clone Git repo  https://github.com/srilakshminittala/loginapis.git into your local directory.
 
 ```bash
-git clone https://github.com/srilakshminittala/restapi.git
+git clone https://github.com/srilakshminittala/loginapis.git
 ```
 2. Build the project from the project root or in the pom.xml directory
 
