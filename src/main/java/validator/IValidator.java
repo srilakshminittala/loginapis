@@ -2,7 +2,7 @@ package validator;
 
 import io.restassured.response.Response;
 
-public interface Validate {
+public interface IValidator {
 
 	public void validate(Response res, String expectedCode, String code, String message);
 

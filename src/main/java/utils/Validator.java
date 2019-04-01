@@ -7,9 +7,9 @@ import org.json.JSONObject;
 import org.testng.Assert;
 
 import io.restassured.response.Response;
-import validator.Validate;
+import validator.IValidator;
 
-public class Validator implements Validate {
+public class Validator implements IValidator {
 
 	@Override
 	public void validate(Response res, String expectedCode, String code, String message) {
