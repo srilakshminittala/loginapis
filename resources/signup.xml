@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="test-assesment" parallel="methods" verbose="1" thread-count="1">
+	
+	
+	<test name="validate api">
+		<classes>
+			<class name="testplans.ValidateTestPlan"></class>
+			<class name="testplans.LoginTestPlan"></class>
+			<class name="testplans.CreateAPITestPlan"></class>
+		</classes>
+	</test>
+
+ 
+</suite>
