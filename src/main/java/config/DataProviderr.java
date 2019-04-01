@@ -20,8 +20,7 @@ public class DataProviderr {
 				{ RandomGenerator.generatePhoneNumber(), "lnittala@yahoo.com", "", "94105", "409", "reason",
 						"ER_PASSWORD" },
 				{ RandomGenerator.generatePhoneNumber(), RandomGenerator.generateEmail(), "hhj", "94", "409", "reason",
-						"ER_ZIPCODE" },
-				{ "112344565", RandomGenerator.generateEmail(), "hhj", "94105", "409", "reason", "InvalidPhone" }
+						"ER_ZIPCODE" }
 
 		};
 

@@ -12,7 +12,7 @@ import config.DataProviderr;
 
 public class LoginTestPlan {
 
-	@Test(dataProvider = "loginInput", dataProviderClass = DataProviderr.class, alwaysRun = true)
+	@Test(dataProvider = "loginAPIInput", dataProviderClass = DataProviderr.class, alwaysRun = true)
 	public void LoginAPISuccess(String userName, String pwd, String expectedCode, String messagecode, String message,
 			String caseType) {
 
